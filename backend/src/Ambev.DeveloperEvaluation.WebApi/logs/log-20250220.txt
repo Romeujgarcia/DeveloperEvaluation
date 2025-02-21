@@ -1,0 +1,1123 @@
+2025-02-20 13:03:51.631 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-02-20 13:03:54.017 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\Romeu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 13:03:56.659 -03:00 [INF] Rebus.Internals.ConnectionManager Initializing RabbitMQ connection manager for transport with input queue "my_queue"
+2025-02-20 13:03:56.878 -03:00 [INF] Rebus.Routing.TypeBased.TypeBasedRouter Mapped PlaceOrderCommand -> "my_queue"
+2025-02-20 13:03:57.995 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2025-02-20 13:03:58.109 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" started
+2025-02-20 13:03:58.120 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Successfully created bus instance RebusBus Rebus 1 (isDefaultBus: true)
+2025-02-20 13:03:58.159 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 1
+2025-02-20 13:03:58.303 -03:00 [INF] Rebus.RabbitMq.RabbitMqTransport Successfully initialized consumer for "my_queue"
+2025-02-20 13:03:59.978 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-02-20 13:03:59.982 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-02-20 13:03:59.987 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-02-20 13:04:00.008 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: C:\Users\Romeu\Downloads\Documento\NET core\Teste Tecnico\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+2025-02-20 13:04:06.876 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.html - null null
+2025-02-20 13:04:07.788 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.html - 200 null text/html;charset=utf-8 918.1577ms
+2025-02-20 13:04:08.217 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-20 13:04:08.217 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-bundle.js - null null
+2025-02-20 13:04:08.217 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.css - null null
+2025-02-20 13:04:08.217 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.js - null null
+2025-02-20 13:04:08.219 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui.css - null null
+2025-02-20 13:04:08.678 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-20 13:04:08.684 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-20 13:04:08.759 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.js - 200 null application/javascript;charset=utf-8 541.8204ms
+2025-02-20 13:04:09.094 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-20 13:04:09.172 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.css - 200 202 text/css 955.3291ms
+2025-02-20 13:04:09.245 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 1027.9714ms
+2025-02-20 13:04:09.959 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui.css - 200 152034 text/css 1742.8131ms
+2025-02-20 13:04:09.960 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-20 13:04:11.630 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 13:04:12.081 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 3864.4978ms
+2025-02-20 13:04:17.267 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5636.9128ms
+2025-02-20 13:04:40.112 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - null null
+2025-02-20 13:04:41.443 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 13:04:41.891 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 13:05:24.065 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (612ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 13:05:26.565 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 13:05:28.406 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 13:05:28.985 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 46808.2436ms
+2025-02-20 13:05:29.369 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 13:05:29.568 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - 200 null application/json; charset=utf-8 49456.3391ms
+2025-02-20 13:18:19.007 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 13:18:20.889 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2242.6229ms
+2025-02-20 13:28:35.386 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 13:28:37.739 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2455.6287ms
+2025-02-20 13:28:52.399 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - null null
+2025-02-20 13:28:52.666 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 13:28:52.735 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 13:28:53.931 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (131ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 13:28:54.043 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 13:28:54.074 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 13:28:54.131 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 1378.6592ms
+2025-02-20 13:28:54.136 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 13:28:54.153 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - 200 null application/json; charset=utf-8 1753.4988ms
+2025-02-20 13:56:20.082 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 13:56:23.852 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3867.4128ms
+2025-02-20 13:57:01.553 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 0
+2025-02-20 13:57:01.753 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Stopping periodic task "CleanupTrackedErrors"
+2025-02-20 13:57:01.930 -03:00 [INF] Rebus.Internals.ConnectionManager Disposing RabbitMQ connection
+2025-02-20 13:57:02.051 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" stopped
+2025-02-20 13:57:02.056 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Bus instance RebusBus Rebus 1 successfully disposed
+2025-02-20 13:57:02.059 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-02-20 14:20:29.373 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-02-20 14:20:32.979 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\Romeu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 14:20:44.896 -03:00 [INF] Rebus.Internals.ConnectionManager Initializing RabbitMQ connection manager for transport with input queue "my_queue"
+2025-02-20 14:20:46.994 -03:00 [INF] Rebus.Routing.TypeBased.TypeBasedRouter Mapped PlaceOrderCommand -> "my_queue"
+2025-02-20 14:20:53.512 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2025-02-20 14:20:53.581 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" started
+2025-02-20 14:20:53.695 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Successfully created bus instance RebusBus Rebus 1 (isDefaultBus: true)
+2025-02-20 14:20:55.466 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 1
+2025-02-20 14:20:55.803 -03:00 [INF] Rebus.RabbitMq.RabbitMqTransport Successfully initialized consumer for "my_queue"
+2025-02-20 14:20:59.741 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-02-20 14:21:00.450 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-02-20 14:21:00.807 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-02-20 14:21:01.109 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: C:\Users\Romeu\Downloads\Documento\NET core\Teste Tecnico\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+2025-02-20 14:21:37.021 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-02-20 14:21:38.999 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 2043.3033ms
+2025-02-20 14:21:39.539 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-02-20 14:21:52.631 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger - null null
+2025-02-20 14:21:53.334 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger - 301 0 null 703.2508ms
+2025-02-20 14:21:54.131 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.html - null null
+2025-02-20 14:21:54.603 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.html - 200 null text/html;charset=utf-8 471.5515ms
+2025-02-20 14:21:55.310 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.js - null null
+2025-02-20 14:21:55.488 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.js - 200 null application/javascript;charset=utf-8 178.2536ms
+2025-02-20 14:21:56.925 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 14:21:59.033 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2107.0659ms
+2025-02-20 14:49:25.300 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 14:49:27.724 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:49:30.680 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 14:49:53.748 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (153ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 14:49:54.251 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 14:49:54.320 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 14:49:54.506 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 23790.1525ms
+2025-02-20 14:49:54.521 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:49:54.597 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 29397.7869ms
+2025-02-20 14:58:29.836 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 14:58:29.825 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 14:58:37.790 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:58:37.812 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:58:40.272 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 14:58:40.272 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 14:58:41.922 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (153ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 14:58:41.925 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (153ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 14:58:42.138 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 14:58:42.139 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 14:58:42.214 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 14:58:42.215 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 14:58:42.460 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2165.3957ms
+2025-02-20 14:58:42.462 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2136.3145ms
+2025-02-20 14:58:42.478 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:58:42.482 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 14:58:42.517 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 24646.7249ms
+2025-02-20 14:58:43.391 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 25686.9851ms
+2025-02-20 15:05:05.639 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:05:06.388 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:05:06.807 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:05:09.253 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (222ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:05:09.423 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:05:09.454 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:05:09.520 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2586.6252ms
+2025-02-20 15:05:09.527 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:05:09.545 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3942.0052ms
+2025-02-20 15:10:44.480 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:10:45.442 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:10:45.654 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:10:48.977 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (132ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:10:49.164 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:10:49.268 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:10:49.327 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 3591.0779ms
+2025-02-20 15:10:49.338 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:10:49.357 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 4967.7815ms
+2025-02-20 15:21:39.227 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:21:39.684 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:21:39.802 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:21:43.698 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (528ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:21:44.721 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (155ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:21:48.524 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:21:48.808 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:21:49.318 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:21:49.323 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:21:50.364 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 10516.0118ms
+2025-02-20 15:21:50.963 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:21:51.936 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 12720.3726ms
+2025-02-20 15:21:52.099 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (163ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:21:52.294 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:21:52.321 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:21:52.335 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 1559.1122ms
+2025-02-20 15:21:52.405 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:21:52.409 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3885.5074ms
+2025-02-20 15:23:40.165 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 15:23:48.945 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8977.7649ms
+2025-02-20 15:25:14.993 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - null null
+2025-02-20 15:25:15.214 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:25:15.292 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:25:15.847 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (44ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:25:15.981 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:25:16.018 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:25:16.447 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 806.6331ms
+2025-02-20 15:25:16.460 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:25:16.544 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10 - 200 null application/json; charset=utf-8 1578.6604ms
+2025-02-20 15:36:18.741 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:36:18.741 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 15:36:19.437 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:36:19.464 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:36:19.573 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:36:19.573 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 15:36:21.584 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (316ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:36:21.584 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (288ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 15:36:21.943 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:36:21.944 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 15:36:21.975 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:36:21.981 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 15:36:22.050 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2465.1012ms
+2025-02-20 15:36:22.058 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2445.6296ms
+2025-02-20 15:36:22.083 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:36:22.123 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 15:36:22.152 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3454.9806ms
+2025-02-20 15:36:22.156 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3460.7043ms
+2025-02-20 16:16:14.721 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 16:16:21.260 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6635.4179ms
+2025-02-20 16:30:34.061 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 16:30:34.610 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 16:30:34.701 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 16:30:40.305 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (330ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 16:30:40.505 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 16:30:40.554 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 16:30:40.700 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 5975.9202ms
+2025-02-20 16:30:40.734 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 16:30:40.774 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 6735.7139ms
+2025-02-20 17:17:55.776 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:17:56.360 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:17:56.433 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:18:01.175 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (148ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:18:01.428 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:18:01.490 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:18:01.590 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 5135.7716ms
+2025-02-20 17:18:01.676 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:18:01.705 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 5970.7016ms
+2025-02-20 17:23:15.719 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:23:19.955 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:23:20.322 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:23:25.921 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (330ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:23:28.365 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:23:28.659 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:23:30.029 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 9525.1179ms
+2025-02-20 17:23:30.091 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:23:30.180 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 14879.9408ms
+2025-02-20 17:27:23.958 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:27:25.386 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:27:25.799 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:27:28.875 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (277ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:27:29.071 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:27:29.144 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:27:29.306 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 3428.5271ms
+2025-02-20 17:27:29.366 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:27:29.400 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 5480.8918ms
+2025-02-20 17:38:38.825 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:38:39.537 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:38:39.837 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:38:41.455 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (154ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:38:41.642 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:38:41.725 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:38:41.873 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2000.0825ms
+2025-02-20 17:38:41.887 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:38:42.390 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3644.3236ms
+2025-02-20 17:38:58.269 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:38:58.305 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:38:58.540 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:38:58.751 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (83ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:38:58.917 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:38:58.940 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:38:58.964 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 369.0148ms
+2025-02-20 17:38:58.981 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:38:58.987 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 718.6111ms
+2025-02-20 17:39:41.814 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:39:42.910 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:39:43.002 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:39:47.394 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (3,148ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:39:47.596 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:39:47.711 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:39:47.857 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 4834.373ms
+2025-02-20 17:39:47.901 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:39:47.951 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 6548.0095ms
+2025-02-20 17:41:32.872 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:41:35.791 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:41:35.972 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:41:37.697 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (99ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:41:37.926 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:41:38.008 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:41:38.092 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2090.0783ms
+2025-02-20 17:41:38.107 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:41:38.135 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 5290.3883ms
+2025-02-20 17:42:01.242 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:42:01.925 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:42:01.938 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:42:02.306 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (32ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:42:03.666 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:42:03.721 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:42:04.216 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 2269.3286ms
+2025-02-20 17:42:04.221 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:42:04.226 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 2983.9821ms
+2025-02-20 17:44:19.646 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:21.124 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 17:44:21.571 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:21.585 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:21.687 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:21.756 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:22.315 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:23.230 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (208ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:44:23.371 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:44:23.559 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:44:23.662 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 1895.8981ms
+2025-02-20 17:44:23.672 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:23.695 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 2109.8306ms
+2025-02-20 17:44:24.293 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (41ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:44:25.216 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:44:27.719 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 5394.2426ms
+2025-02-20 17:44:27.723 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:27.736 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 499 null application/json; charset=utf-8 8161.4926ms
+2025-02-20 17:44:28.259 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:28.288 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 17:44:28.294 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:28.304 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:28.355 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:44:28.384 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:44:28.429 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:28.435 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 122.2449ms
+2025-02-20 17:44:28.537 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:28.548 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:28.588 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:28.590 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 331.5871ms
+2025-02-20 17:44:28.628 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:44:28.658 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:44:28.668 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:44:28.672 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 48.9787ms
+2025-02-20 17:44:28.682 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:28.703 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 274.0555ms
+2025-02-20 17:44:31.077 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:31.097 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 17:44:31.104 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:31.109 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:31.139 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:44:31.187 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:44:31.201 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:31.207 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 84.7537ms
+2025-02-20 17:44:31.241 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:31.260 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:31.274 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:31.278 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 201.586ms
+2025-02-20 17:44:31.322 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:44:31.358 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:44:31.382 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:44:31.387 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 82.7441ms
+2025-02-20 17:44:31.405 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:31.411 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 210.1292ms
+2025-02-20 17:44:36.904 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:36.956 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 17:44:36.957 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 17:44:36.979 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:36.983 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:36.992 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:37.000 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:44:37.037 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 17:44:37.132 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 17:44:37.174 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 17:44:37.190 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 167.1578ms
+2025-02-20 17:44:37.226 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:37.257 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 301.3804ms
+2025-02-20 17:44:37.624 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (35ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:44:37.948 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:44:38.047 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 995.7675ms
+2025-02-20 17:44:38.175 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:44:38.187 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 499 null application/json; charset=utf-8 1282.6547ms
+2025-02-20 17:45:16.305 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 17:45:16.607 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:45:16.664 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:45:17.352 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (55ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:45:17.548 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:45:17.645 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 947.0208ms
+2025-02-20 17:45:17.656 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:45:17.681 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1398.7132ms
+2025-02-20 17:48:20.980 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-02-20 17:48:28.303 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7648.4512ms
+2025-02-20 17:51:13.744 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10 - null null
+2025-02-20 17:51:14.152 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:51:14.306 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 17:51:19.495 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (169ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 17:51:19.973 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 17:51:20.042 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 5705.8802ms
+2025-02-20 17:51:20.058 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 17:51:20.076 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10 - 200 null application/json; charset=utf-8 6370.2516ms
+2025-02-20 17:57:28.623 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 0
+2025-02-20 17:57:29.020 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Stopping periodic task "CleanupTrackedErrors"
+2025-02-20 17:57:29.633 -03:00 [INF] Rebus.Internals.ConnectionManager Disposing RabbitMQ connection
+2025-02-20 17:57:29.920 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" stopped
+2025-02-20 17:57:29.928 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Bus instance RebusBus Rebus 1 successfully disposed
+2025-02-20 17:57:29.933 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-02-20 20:01:28.562 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-02-20 20:01:38.309 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\Romeu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 20:02:02.364 -03:00 [INF] Rebus.Internals.ConnectionManager Initializing RabbitMQ connection manager for transport with input queue "my_queue"
+2025-02-20 20:02:04.039 -03:00 [INF] Rebus.Routing.TypeBased.TypeBasedRouter Mapped PlaceOrderCommand -> "my_queue"
+2025-02-20 20:02:13.809 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2025-02-20 20:02:15.873 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" started
+2025-02-20 20:02:15.974 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Successfully created bus instance RebusBus Rebus 1 (isDefaultBus: true)
+2025-02-20 20:02:16.133 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 1
+2025-02-20 20:02:16.421 -03:00 [INF] Rebus.RabbitMq.RabbitMqTransport Successfully initialized consumer for "my_queue"
+2025-02-20 20:02:26.935 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-02-20 20:02:31.616 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-02-20 20:02:31.630 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-02-20 20:02:31.785 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: C:\Users\Romeu\Downloads\Documento\NET core\Teste Tecnico\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+2025-02-20 20:17:02.354 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:17:20.462 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:17:21.626 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:17:39.915 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (292ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:17:41.371 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:17:41.517 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:17:41.891 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 20197.9928ms
+2025-02-20 20:17:41.940 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:17:42.041 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 39969.2437ms
+2025-02-20 20:18:25.540 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:18:25.726 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:18:25.896 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:25.913 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:18:25.964 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:26.000 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:18:26.051 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:18:26.348 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:18:32.559 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:18:32.596 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:18:32.664 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 6643.1672ms
+2025-02-20 20:18:32.682 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:32.709 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 6795.719ms
+2025-02-20 20:18:33.157 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (100ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:18:34.661 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:18:35.767 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 9694.0482ms
+2025-02-20 20:18:35.775 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:36.178 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 499 null application/json; charset=utf-8 10669.0902ms
+2025-02-20 20:18:47.052 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:18:47.320 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:18:47.362 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:18:47.436 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:47.439 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:47.528 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:18:47.527 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:18:47.829 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:18:47.852 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:18:47.869 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:18:47.876 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 181.1735ms
+2025-02-20 20:18:47.888 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:47.920 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 599.6305ms
+2025-02-20 20:18:49.045 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (17ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:18:49.190 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:18:49.325 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 1740.5045ms
+2025-02-20 20:18:49.362 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:18:49.389 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 499 null application/json; charset=utf-8 2336.8218ms
+2025-02-20 20:21:47.369 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:21:48.939 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:21:49.216 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:21:52.200 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (723ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:21:53.124 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:21:53.535 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:21:56.914 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 7679.2554ms
+2025-02-20 20:21:56.938 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:21:56.965 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 9788.5715ms
+2025-02-20 20:22:40.003 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:22:40.477 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:22:40.572 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:22:41.670 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (38ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:22:41.803 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:22:41.999 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:22:42.271 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 1577.5361ms
+2025-02-20 20:22:42.287 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:22:42.293 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 2303.529ms
+2025-02-20 20:23:02.759 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:23:02.800 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:23:02.818 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:23:04.010 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (165ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:23:04.109 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:23:04.139 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:23:04.171 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 1329.5991ms
+2025-02-20 20:23:04.236 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:23:04.273 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1515.8283ms
+2025-02-20 20:24:00.468 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:24:01.448 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:24:01.666 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:24:03.621 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (211ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:24:04.144 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:24:04.316 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 2624.0983ms
+2025-02-20 20:24:04.334 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:24:04.384 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 4012.6117ms
+2025-02-20 20:27:08.645 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:27:09.567 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:27:09.948 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:27:13.320 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (108ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:27:14.003 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:27:14.396 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 4424.4189ms
+2025-02-20 20:27:15.383 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:27:15.447 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 6885.3703ms
+2025-02-20 20:27:27.684 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:27:27.749 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:27:27.769 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:27:27.866 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:27:28.017 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:27:28.032 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 255.1237ms
+2025-02-20 20:27:28.115 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:27:28.128 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 444.0203ms
+2025-02-20 20:42:57.932 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:42:58.879 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:42:59.019 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:43:04.365 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (234ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:43:04.635 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:43:04.789 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 5694.6491ms
+2025-02-20 20:43:04.800 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:43:04.833 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 6983.6296ms
+2025-02-20 20:44:27.300 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:27.546 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:27.627 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:29.916 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (68ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:44:30.171 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:44:30.312 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:44:30.666 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 3026.8305ms
+2025-02-20 20:44:30.710 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:30.749 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 3474.3239ms
+2025-02-20 20:44:46.548 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:46.656 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:46.660 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:44:46.674 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:46.688 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:46.692 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:46.709 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:46.752 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (12ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:44:46.828 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:44:46.842 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:44:46.929 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 224.3397ms
+2025-02-20 20:44:46.946 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:46.955 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 298.6699ms
+2025-02-20 20:44:47.381 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (37ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:44:47.539 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:44:47.629 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 911.7545ms
+2025-02-20 20:44:47.637 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:47.642 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 499 null application/json; charset=utf-8 1094.1745ms
+2025-02-20 20:44:49.114 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:49.128 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:44:49.138 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:49.141 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:49.172 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:44:49.186 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:44:49.190 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 44.8212ms
+2025-02-20 20:44:49.196 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:49.197 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:49.201 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 88.52ms
+2025-02-20 20:44:49.223 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:49.244 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:49.297 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (15ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:44:49.332 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:44:49.359 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:44:49.370 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 104.5582ms
+2025-02-20 20:44:49.387 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:49.445 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 247.9943ms
+2025-02-20 20:44:51.047 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:51.121 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:51.157 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:44:51.405 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:51.407 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:51.422 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:51.424 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:51.457 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (12ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:44:51.477 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:44:51.494 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:44:51.521 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:44:51.602 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:44:51.685 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 213.3279ms
+2025-02-20 20:44:51.734 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 294.7432ms
+2025-02-20 20:44:51.746 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:51.757 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:51.772 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 724.4756ms
+2025-02-20 20:44:51.833 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 711.9143ms
+2025-02-20 20:44:53.523 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:53.529 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:44:54.475 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:44:54.494 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:54.495 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:54.519 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:54.532 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:44:54.555 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (11ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:44:54.780 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:44:55.129 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:44:55.170 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:44:55.287 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:44:55.305 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 551.6685ms
+2025-02-20 20:44:55.330 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 790.7175ms
+2025-02-20 20:44:55.355 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:55.360 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:44:55.366 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1843.359ms
+2025-02-20 20:44:55.384 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1855.2935ms
+2025-02-20 20:45:04.454 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - null null
+2025-02-20 20:45:04.483 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:45:04.728 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:45:04.754 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:45:04.790 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:45:05.050 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:45:05.050 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetCarts", controller = "Carts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCarts(Int32, Int32, System.String) on controller CartsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:45:05.573 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c1."Id", c1."Date", c1."UserId", c0."Id", c0."CartId", c0."ProductId", c0."Quantity"
+FROM (
+    SELECT c."Id", c."Date", c."UserId"
+    FROM "Carts" AS c
+    LIMIT @__p_1 OFFSET @__p_0
+) AS c1
+LEFT JOIN "CartProduct" AS c0 ON c1."Id" = c0."CartId"
+ORDER BY c1."Id"
+2025-02-20 20:45:05.580 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:45:05.659 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'CartsResponse'.
+2025-02-20 20:45:05.676 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi) in 609.0011ms
+2025-02-20 20:45:05.692 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'CartsController.GetCarts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:45:05.701 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/carts?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1246.7012ms
+2025-02-20 20:45:05.710 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:45:05.758 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:45:05.765 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 706.4456ms
+2025-02-20 20:45:05.770 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:45:05.774 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1290.5435ms
+2025-02-20 20:46:41.195 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:46:43.524 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:46:43.729 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:46:51.324 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (72ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:46:52.080 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:46:54.502 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:46:54.692 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 5573.3636ms
+2025-02-20 20:46:56.430 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:46:56.469 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 15377.2773ms
+2025-02-20 20:47:17.124 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:47:17.704 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:47:18.068 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:18.185 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:47:18.196 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:47:18.221 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:18.227 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:47:18.855 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (61ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:47:18.855 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (73ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:47:18.962 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:47:18.967 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:47:18.995 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:47:19.046 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:47:19.122 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 887.3524ms
+2025-02-20 20:47:19.126 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 905.0525ms
+2025-02-20 20:47:19.188 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:19.194 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:19.222 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 1027.4643ms
+2025-02-20 20:47:19.238 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 2203.5605ms
+2025-02-20 20:47:19.258 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - null null
+2025-02-20 20:47:19.397 -03:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2025-02-20 20:47:19.466 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:19.502 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(Int32, Int32, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String) on controller ProductsController (Ambev.DeveloperEvaluation.WebApi).
+2025-02-20 20:47:19.613 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p0."Id", p0."Category", p0."Description", p0."Image", p0."Price", p0."Title", r."Id", r."Count", r."ProductId", r."Rate"
+FROM (
+    SELECT p."Id", p."Category", p."Description", p."Image", p."Price", p."Title"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS p0
+LEFT JOIN "Rating" AS r ON p0."Id" = r."ProductId"
+2025-02-20 20:47:19.670 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2025-02-20 20:47:19.686 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'ProductResponse'.
+2025-02-20 20:47:19.833 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi) in 256.4723ms
+2025-02-20 20:47:19.864 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'ProductsController.GetProducts (Ambev.DeveloperEvaluation.WebApi)'
+2025-02-20 20:47:19.886 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/products?page=1&size=10&order=%20 - 200 null application/json; charset=utf-8 627.8456ms
+2025-02-20 20:52:03.752 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" setting number of workers to 0
+2025-02-20 20:52:04.474 -03:00 [INF] Rebus.Workers.ThreadPoolBased.ThreadPoolWorkerFactory Waiting for message handler continuations to finish...
+2025-02-20 20:52:06.058 -03:00 [INF] Rebus.Workers.ThreadPoolBased.ThreadPoolWorkerFactory Done :)
+2025-02-20 20:52:06.285 -03:00 [INF] Rebus.Threading.TaskParallelLibrary.TplAsyncTask Stopping periodic task "CleanupTrackedErrors"
+2025-02-20 20:52:07.265 -03:00 [INF] Rebus.Internals.ConnectionManager Disposing RabbitMQ connection
+2025-02-20 20:52:08.204 -03:00 [INF] Rebus.Bus.RebusBus Bus "Rebus 1" stopped
+2025-02-20 20:52:08.238 -03:00 [INF] Rebus.ServiceProvider.Internals.RebusBackgroundService Bus instance RebusBus Rebus 1 successfully disposed
+2025-02-20 20:52:08.267 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...

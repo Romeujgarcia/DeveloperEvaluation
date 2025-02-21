@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.Application", "Ambev.DeveloperEvaluation.Application\Ambev.DeveloperEvaluation.Application.csproj", "{6DAFA711-B722-16D0-53C4-9672E0E3F732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.Common", "Ambev.DeveloperEvaluation.Common\Ambev.DeveloperEvaluation.Common.csproj", "{02060F53-6B6E-FA1E-339A-2B123FE15109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.Domain", "Ambev.DeveloperEvaluation.Domain\Ambev.DeveloperEvaluation.Domain.csproj", "{C4541A19-99E2-A648-9B97-72420456A18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.IoC", "Ambev.DeveloperEvaluation.IoC\Ambev.DeveloperEvaluation.IoC.csproj", "{A0FFE52A-96E6-5DCF-4F51-F2EAF78F2C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.ORM", "Ambev.DeveloperEvaluation.ORM\Ambev.DeveloperEvaluation.ORM.csproj", "{8E0C8ADB-FF9E-B793-3C3C-95EDC5CD15BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.DeveloperEvaluation.WebApi", "Ambev.DeveloperEvaluation.WebApi\Ambev.DeveloperEvaluation.WebApi.csproj", "{9770EE22-4008-CD30-46B3-959FA8FFEBF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DAFA711-B722-16D0-53C4-9672E0E3F732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAFA711-B722-16D0-53C4-9672E0E3F732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAFA711-B722-16D0-53C4-9672E0E3F732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAFA711-B722-16D0-53C4-9672E0E3F732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02060F53-6B6E-FA1E-339A-2B123FE15109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02060F53-6B6E-FA1E-339A-2B123FE15109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02060F53-6B6E-FA1E-339A-2B123FE15109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02060F53-6B6E-FA1E-339A-2B123FE15109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4541A19-99E2-A648-9B97-72420456A18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4541A19-99E2-A648-9B97-72420456A18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4541A19-99E2-A648-9B97-72420456A18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4541A19-99E2-A648-9B97-72420456A18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FFE52A-96E6-5DCF-4F51-F2EAF78F2C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FFE52A-96E6-5DCF-4F51-F2EAF78F2C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FFE52A-96E6-5DCF-4F51-F2EAF78F2C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FFE52A-96E6-5DCF-4F51-F2EAF78F2C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0C8ADB-FF9E-B793-3C3C-95EDC5CD15BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0C8ADB-FF9E-B793-3C3C-95EDC5CD15BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0C8ADB-FF9E-B793-3C3C-95EDC5CD15BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0C8ADB-FF9E-B793-3C3C-95EDC5CD15BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9770EE22-4008-CD30-46B3-959FA8FFEBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9770EE22-4008-CD30-46B3-959FA8FFEBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9770EE22-4008-CD30-46B3-959FA8FFEBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9770EE22-4008-CD30-46B3-959FA8FFEBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3428779-E171-4312-B734-3BF96A4E4F74}
+	EndGlobalSection
+EndGlobal

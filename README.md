@@ -4,7 +4,7 @@ Este projeto é uma avaliação para desenvolvedores, que inclui um backend cons
 
 ## Sequência de Desenvolvimento do Projeto
 
-1. **Banco de Dados**: O banco de dados foi implementado usando **PostgreSQL** (ou **MongoDB**), com mapeamento objeto-relacional utilizando **Entity Framework Core** e **AutoMapper**.
+1. **Banco de Dados**: O banco de dados foi implementado usando **PostgreSQL**, com mapeamento objeto-relacional utilizando **Entity Framework Core** e **AutoMapper**.
 2. **Classes de Manipulação de Dados**: As classes para manipulação dos dados foram implementadas usando os padrões de design **Mediator** e **AutoMapping**.
 3. **Camada de Serviços**: A camada de serviços foi implementada utilizando **Rebus** para gerenciamento de mensagens.
 4. **Regras de Negócio**: As regras de negócio foram desenvolvidas e integradas ao sistema.
